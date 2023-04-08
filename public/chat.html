@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Chat Page</title>
+  </head>
+  <body>
+    <h1>Chat Page</h1>
+    <form action="/api/v1/chat/sendMessage" method="post">
+      <label for="message">Message:</label>
+      <input type="text" id="message" name="message">
+      <button type="submit">Send</button>
+    </form>
+    <div id="messages">
+    </div>
+  </body>
+</html>
